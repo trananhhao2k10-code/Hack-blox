@@ -62,14 +62,14 @@ local plr = Player
 local Root = HumanoidRootPart
 
 -- ==========================================
--- LOAD UI LIBRARY (HDanh Hub)
+-- LOAD UI LIBRARY (Hào Hub)
 -- ==========================================
 Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/hdanhhub/UI/refs/heads/main/ui_BananaHub_final.lua"))()
 
 Window = Library:CreateWindow({
     Title = "Hào Hub",
     Desc = "- Blox Fruit",
-    Image = "rbxassetid://125485209191960"
+    Image = "rbxassetid://115106978826451"
 })
 
 -- ==========================================
@@ -267,18 +267,18 @@ end
 -- TẠO CÁC TABS VỚI WRAPPER
 -- ==========================================
 Tabs = {
-    ["Info"]     = wrapTab(Window:AddTab("Thông Tin")),
-    ["Main"]     = wrapTab(Window:AddTab("Cày Cấp")),
-    ["Sea"]      = wrapTab(Window:AddTab("Sự Kiện")),
-    ["Item"]     = wrapTab(Window:AddTab("Lấy & Nâng Cấp Vật Phẩm")),
-    ["Setting"]  = wrapTab(Window:AddTab("Cài Đặt")),
-    ["Status"]   = wrapTab(Window:AddTab("Webhook")),
-    ["Stats"]    = wrapTab(Window:AddTab("Chỉ Số")),
-    ["Player"]   = wrapTab(Window:AddTab("Người Chơi")),
-    ["Teleport"] = wrapTab(Window:AddTab("Dịch Chuyển")),
-    ["Visual"]   = wrapTab(Window:AddTab("Giả Mạo")),
-    ["Fruit"]    = wrapTab(Window:AddTab("Trái Ác Quỷ")),
-    ["Raid"]     = wrapTab(Window:AddTab("Đột Kích")),
+    ["Info"]     = wrapTab(Window:AddTab("ᰔᩚThông Tin☂")),
+    ["Main"]     = wrapTab(Window:AddTab(💖Cày Cấp♡˘̈")),
+    ["Sea"]      = wrapTab(Window:AddTab(🤍"Sự Kiện♡︎")),
+    ["Item"]     = wrapTab(Window:AddTab("💞⇡Up item")),
+    ["Setting"]  = wrapTab(Window:AddTab("💗Cài Đặt💌")),
+    ["Status"]   = wrapTab(Window:AddTab("❤︎Thông tin𓏲𝄢")),
+    ["Stats"]    = wrapTab(Window:AddTab("♥Chỉ Số♠")),
+    ["Player"]   = wrapTab(Window:AddTab("💓Người Chơi💗")),
+    ["Teleport"] = wrapTab(Window:AddTab("💕Dịch Chuyển💞")),
+    ["Visual"]   = wrapTab(Window:AddTab("🖤Giả Mạ💜o")),
+    ["Fruit"]    = wrapTab(Window:AddTab("💝Trái Ác Quỷ💘")),
+    ["Raid"]     = wrapTab(Window:AddTab("𓆩💗𓆪Đột Kích𓆩🖤𓆪")),
     ["Race"]     = wrapTab(Window:AddTab("Nâng Cấp Chủng Tộc")),
     ["Shop"]     = wrapTab(Window:AddTab("Cửa Hàng")),
     ["Misc"]     = wrapTab(Window:AddTab("Khác")),
